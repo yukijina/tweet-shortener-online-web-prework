@@ -67,7 +67,7 @@ end
 def bulk_tweet_shortener(array)
   multi_arr = array.each_slice(1).to_a 
   multi_arr.map do |arr|
-    to_str = arr.join(" ")
+    to_str = arr.downcase.join(" ")
     puts word_substituter(to_str)
   end
 end
