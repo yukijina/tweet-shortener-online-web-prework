@@ -74,7 +74,6 @@ end
 
 def selective_tweet_shortener(array)
   if array.size > 140 
-    word_substituter(array)
     bulk_tweet_shortener(array)
   else
     array
