@@ -65,6 +65,6 @@ end
 
 
 def bulk_tweet_shortener(array)
-  to_str = array.join(" ")
+  to_str = array.join(", ")
   puts word_substituter(to_str)
 end
