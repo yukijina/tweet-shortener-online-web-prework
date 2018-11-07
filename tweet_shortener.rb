@@ -72,9 +72,13 @@ def bulk_tweet_shortener(array)
   end
 end
 
+
 def selective_tweet_shortener(array)
-  if array.size > 140 
-    bulk_tweet_shortener(array)
+  multi_arr = array.each_slice(1).to_a 
+ 
+  if multi_arr.size > 140 
+     multi_arr.join(", ")
+     bulk_tweet_shortener(array)
   else
     array
   end
