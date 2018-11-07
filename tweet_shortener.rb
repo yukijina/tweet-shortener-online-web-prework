@@ -78,9 +78,10 @@ def selective_tweet_shortener(array)
  
   multi_arr.each do |arr| 
     if arr.length > 140 
-     multi_arr.join(", ")
-     bulk_tweet_shortener(array)
-  else
-     arr
+      multi_arr.join(", ")
+      bulk_tweet_shortener(array)
+    else
+      arr
+    end
   end
 end
