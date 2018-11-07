@@ -68,6 +68,7 @@ arr_dic = dictionary.map {|key,value| [key.to_s,value]}
   array.join(" ")
 end
 
+
 def bulk_tweet_shortener(array)
   word_substituter(array)
   puts array
