@@ -75,4 +75,5 @@ def bulk_tweet_shortener(array)
     puts word_substituter(to_str)
   else
      to_str
+  end
 end
