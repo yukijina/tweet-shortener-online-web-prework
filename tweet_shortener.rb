@@ -70,5 +70,10 @@ end
 
 
 def bulk_tweet_shortener(array)
+  to_str = array.join(" ")
+  if to_str.size > 140
     puts word_substituter(to_str)
+  else
+     to_str
+  end
 end
