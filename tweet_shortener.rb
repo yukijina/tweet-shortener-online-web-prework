@@ -1,5 +1,5 @@
 # Write your code here.
-requie
+requie 'pry'
 def word_substituter(string)
   dictionary = {
     :hello => "hi",
