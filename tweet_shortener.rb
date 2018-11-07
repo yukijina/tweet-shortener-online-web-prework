@@ -14,7 +14,6 @@ def word_substituter(string)
     :and => "&"
     }
     
- 
 
  #array = string.tr("'","").downcase.split.to_a 
  array = string.split.to_a 
@@ -27,6 +26,7 @@ def word_substituter(string)
 #dictionary key
 str_keys = dictionary.keys.join(" ")
 arr_keys = dictionary.keys.join(" ").split
+
 #dictionary key and value array
 arr_dic = dictionary.map {|key,value| [key.to_s,value]}
 
