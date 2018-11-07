@@ -15,20 +15,15 @@ def word_substituter(string)
     }
     
 
- #array = string.tr("'","").downcase.split.to_a 
- array = string.split.to_a 
-# grab_key = []
-# dictionary.each do |key,value|
-#   grab_key << key
-# end
-# grab_key.class
+  #array = string.tr("'","").downcase.split.to_a 
+  array = string.split.to_a 
 
-#dictionary key
-str_keys = dictionary.keys.join(" ")
-arr_keys = dictionary.keys.join(" ").split
+  #dictionary key
+    str_keys = dictionary.keys.join(" ")
+    arr_keys = dictionary.keys.join(" ").split
 
-#dictionary key and value array
-arr_dic = dictionary.map {|key,value| [key.to_s,value]}
+  #dictionary key and value array
+    arr_dic = dictionary.map {|key,value| [key.to_s,value]}
 
   array.each do |arr|
        if arr == arr_keys[0]
