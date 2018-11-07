@@ -26,37 +26,37 @@ def word_substituter(string)
     arr_dic = dictionary.map {|key,value| [key.to_s,value]}
 
   array.each do |arr|
-       if arr == arr_keys[0]
+       if arr.downcase == arr_keys[0]
         arr.replace(arr_dic[0][1])
 
-       elsif arr == arr_keys[1]
+       elsif arr.downcase == arr_keys[1]
         arr.replace(arr_dic[1][1])
       
-       elsif arr == arr_keys[2]
+       elsif arr.downcase == arr_keys[2]
         arr.replace(arr_dic[2][1])
       
-       elsif arr == arr_keys[3]
+       elsif arr.downcase == arr_keys[3]
         arr.replace(arr_dic[3][1])
       
-       elsif arr == arr_keys[4]
+       elsif arr.downcase == arr_keys[4]
         arr.replace(arr_dic[4][1])
       
-       elsif arr == arr_keys[5]
+       elsif arr.downcase == arr_keys[5]
         arr.replace(arr_dic[5][1])
       
-       elsif arr == arr_keys[6]
+       elsif arr.downcase == arr_keys[6]
         arr.replace(arr_dic[6][1])
       
-       elsif arr == arr_keys[7]
+       elsif arr.downcase == arr_keys[7]
         arr.replace(arr_dic[7][1])
       
-       elsif arr == arr_keys[8]
+       elsif arr.downcase == arr_keys[8]
         arr.replace(arr_dic[8][1])
       
-       elsif arr == arr_keys[9]
+       elsif arr.downcase == arr_keys[9]
         arr.replace(arr_dic[9][1])
        
-      elsif arr == arr_keys[10]
+      elsif arr.downcase == arr_keys[10]
         arr.replace(arr_dic[10][1])
       end 
   end
