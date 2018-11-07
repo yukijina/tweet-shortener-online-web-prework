@@ -1,5 +1,5 @@
 # Write your code here.
-require 'pry'
+
 def word_substituter(string)
   dictionary = {
     :hello => "hi",
@@ -75,7 +75,7 @@ end
 
 def selective_tweet_shortener(array)
   multi_arr = array.each_slice(1).to_a 
- binding.pry
+ 
   multi_arr.each do |arr| 
     if arr.length > 140 
       multi_arr.join(", ")
