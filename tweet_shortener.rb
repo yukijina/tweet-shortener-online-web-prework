@@ -15,8 +15,8 @@ def word_substituter(string)
     }
     
 
-  #array = string.tr("'","").downcase.split.to_a 
-  array = string.split.to_a 
+  array = string.tr("'","").downcase.split.to_a 
+  #array = string.split.to_a 
 
   #dictionary key
     str_keys = dictionary.keys.join(" ")
