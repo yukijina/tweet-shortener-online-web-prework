@@ -77,5 +77,6 @@ def selective_tweet_shortener(array)
     word_substituter(array)
     bulk_tweet_shortener(array)
   else
-  
+    array
+  end
 end
